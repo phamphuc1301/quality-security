@@ -38,6 +38,7 @@
             $('#clear').on('click', function () {
                 $('#data').val('');
                 $('#myChart').hide();
+                $('#circleMyChart').hide();
                 dataDiagram = null;
 
             })
