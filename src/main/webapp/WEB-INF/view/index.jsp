@@ -58,7 +58,7 @@
                         data: {
                             labels: labelData,
                             datasets: [{
-                                label: dataDiagram.length+' of Votes',
+                                label: dataDiagram.length+' of Component',
                                 data: ratio,
                                 backgroundColor: [
                                     'rgba(255, 99, 132, 0.2)',
@@ -155,6 +155,7 @@
         <div class="col-md-6">
             <canvas id="myChart"></canvas>
         </div>
+        <div class="clearfix"></div>
         <div class="col-md-6">
             <canvas id="circleMyChart"></canvas>
         </div>
