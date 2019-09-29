@@ -23,6 +23,7 @@ public class UrlDataServiceImpl implements UrlDataService {
         Component component8 = new Component("component 8", random.nextInt(100));
         Component component9 = new Component("component 9", random.nextInt(100));
         Component component10 = new Component("component 10", random.nextInt(100));
+        Component component11 = new Component("component 11", random.nextInt(100));
         List<Component> components = new ArrayList<>();
         components.add(component1);
         components.add(component2);
@@ -34,6 +35,7 @@ public class UrlDataServiceImpl implements UrlDataService {
         components.add(component8);
         components.add(component9);
         components.add(component10);
+        components.add(component11);
         return components;
     }
 }
